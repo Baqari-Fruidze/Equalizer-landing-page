@@ -1,0 +1,19 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./assets/bg-main-mobile.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.main-div {
+  max-width: 37.5rem;
+}
+.top-div {
+}
