@@ -132,3 +132,33 @@ body {
   align-items: center;
   justify-content: center;
 }
+.footer-mobile {
+  background: #fcfaf9;
+  margin-top: 6.4rem;
+  padding: 0 2.4rem 8rem 2.4rem;
+}
+.equalizer-bottom-div {
+}
+.equalizer-img {
+  fill: #191826;
+  margin-bottom: 3.2rem;
+}
+.footer-p {
+  color: #191826;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 34ch;
+}
+.footer-span {
+  color: #191826;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.icons-div {
+  display: flex;
+  width: 10rem;
+  margin-top: 6.4rem;
+  justify-content: space-between;
+}
