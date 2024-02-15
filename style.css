@@ -7,13 +7,14 @@ html {
   box-sizing: border-box;
 }
 body {
+  font-family: "IBM Plex Sans", sans-serif;
   background-image: url(./assets/bg-main-mobile.png);
-  background-position: top right;
+  background-position: top -100px right -70px;
   background-repeat: no-repeat;
-  background-size: 70%;
+  background-size: 100%;
 }
 .main-div {
-  max-width: 37.5rem;
+  max-width: 100%;
 }
 .header-mobile {
   fill: #191826;
@@ -43,9 +44,9 @@ body {
   background: #191826;
   background-image: url(./assets/bg-pattern-2.svg);
   background-repeat: no-repeat;
-  background-position: center;
-  height: 38rem;
-  background-size: 70%;
+  background-position: top;
+  height: 60rem;
+  background-size: 90%;
   display: flex;
   justify-content: center;
 }
@@ -57,6 +58,7 @@ body {
   border-radius: 12px;
   background: #fa7453;
   padding: 4.8rem 3.6rem;
+  margin-top: -22rem;
 }
 .h2-class {
   color: #fcfaf9;
@@ -107,6 +109,7 @@ body {
   justify-content: center;
   margin-top: 3.2rem;
   margin-bottom: 1.6rem;
+  border: none;
 }
 .apple-icon {
   fill: #fcfaf9;
@@ -131,14 +134,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
 }
 .footer-mobile {
   background: #fcfaf9;
   margin-top: 6.4rem;
   padding: 0 2.4rem 8rem 2.4rem;
 }
-.equalizer-bottom-div {
-}
+
 .equalizer-img {
   fill: #191826;
   margin-bottom: 3.2rem;
