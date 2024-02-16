@@ -13,6 +13,9 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+.facebook-icon {
+  fill: #191826;
+}
 .main-div {
   max-width: 100%;
 }
@@ -166,6 +169,7 @@ body {
   margin-top: 6.4rem;
   justify-content: space-between;
 }
+
 @media (min-width: 48em) {
   body {
     background-image: url(./assets/bg-pattern-1.svg),
@@ -227,5 +231,58 @@ body {
   }
   .icons-div {
     margin: 0;
+  }
+  .facebook-icon:hover {
+    fill: #fa7453;
+  }
+  .iOS-button:hover {
+    background: #66e2dc;
+  }
+  .android-button:hover {
+    background: #ffb964;
+  }
+}
+@media (min-width: 90em) {
+  .main-div {
+    padding: 6rem 16.5rem 9.1rem 16.5rem;
+  }
+  .h1-class {
+    margin-top: 12.7rem;
+    color: #191826;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 88px; /* 100% */
+    letter-spacing: -1px;
+  }
+  .top-div-parag {
+    color: #191826;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px; /* 170% */
+  }
+  .black-div-with-phone {
+    padding-left: 7.3rem;
+    margin-top: 32.1rem;
+    background-size: 40%;
+  }
+  .mobile-photo {
+    margin-top: -19.4rem;
+  }
+  .middle-div {
+    width: 44.6rem;
+    position: absolute;
+    right: 25rem;
+  }
+  .bottom-div {
+    width: 116rem;
+  }
+  .footer-mobile {
+    margin-top: 20rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .mobile-photo {
+    width: 28rem;
   }
 }
