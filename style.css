@@ -205,17 +205,18 @@ body {
     justify-content: flex-start;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
   }
   .mobile-photo {
-    margin-top: -13.8rem;
-    height: 55.6rem;
+    position: absolute;
+    top: -1.13rem;
   }
   .middle-div {
     width: 39.9rem;
     /* transform: translate(56%, -42%); */
     position: absolute;
     right: 11rem;
-    margin-top: -41rem;
+    bottom: -9rem;
   }
   .footer-mobile {
     margin-top: 20rem;
@@ -264,14 +265,14 @@ body {
     padding-left: 7.3rem;
     margin-top: 32.1rem;
     background-size: 40%;
-  }
-  .mobile-photo {
-    margin-top: -19.4rem;
+    position: relative;
+    width: 105rem;
   }
   .middle-div {
     width: 44.6rem;
     position: absolute;
-    right: 25rem;
+    right: 11rem;
+    height: 52rem;
   }
   .bottom-div {
     width: 116rem;
@@ -283,6 +284,10 @@ body {
     justify-content: space-between;
   }
   .mobile-photo {
+    margin-top: 0%;
     width: 28rem;
+    position: absolute;
+    top: -15rem;
+    height: 35rem;
   }
 }
